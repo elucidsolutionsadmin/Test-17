@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Quote | Elucid Solutions LLC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container header-content">
+            <a href="index.html" class="logo">
+                <img src="image_1266fd.PNG" alt="Elucid Solutions Logo">
+            </a>
+            <nav>
+                <a href="index.html">Services</a>
+                <a href="contact.html" class="active">Request a Quote</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <div class="contact-layout">
+                <!-- Left Side: Context -->
+                <div class="contact-info">
+                    <span class="section-label">Initiate Production</span>
+                    <h1 class="section-title" style="margin-bottom: 1.5rem;">Send Us Your Drawing Package.</h1>
+                    <p>Whether you need to outsource a massive multi-site closeout backlog or just need a reliable partner to absorb overflow redlines, we are ready to provide production capacity.</p>
+                    <p style="margin-top: 2rem;"><strong>What to include:</strong><br>For the most accurate flat-fee quote, please briefly describe the estimated sheet count, the current state of your files, and your required turnaround time.</p>
+                </div>
+                
+                <!-- Right Side: B2B Form -->
+                <div>
+                    <form class="contact-form" action="#" method="POST">
+                        <div class="grid-2" style="gap: 1.5rem;">
+                            <div class="form-group">
+                                <label for="name">Name / Title</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Contractor / Company Name</label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Work Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Project Package Details & Volume</label>
+                            <textarea id="message" name="message" placeholder="Include estimated sheet counts, system type (e.g., structured cabling, MEP), and what specific AutoCAD tasks are required..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="link">File Drop Link (Optional)</label>
+                            <input type="url" id="link" name="link" placeholder="Paste a secure link to your package (SharePoint, OneDrive, Dropbox, etc.)">
+                        </div>
+
+                        <button type="submit" class="btn" style="margin-top: 1rem;">Request Quote</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-legal">
+                Elucid Solutions LLC provides strictly specialized 2D CAD drafting, formatting, and digitization services based solely on client-provided field markups. We are not an engineering firm, architectural firm, or design consultancy. We do not provide engineering judgment, architectural design, technical design, stamped plans, professional engineering services, system design, or code analysis. All technical information and design intent must originate from the client. All deliverables must be reviewed, verified, and approved by the client’s designated licensed professionals prior to implementation.
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Elucid Solutions LLC. All rights reserved.</span>
+                <a href="terms.html">Terms of Service & Legal Scope</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
